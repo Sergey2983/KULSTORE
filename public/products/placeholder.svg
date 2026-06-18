@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-label="KULSTORE shoe placeholder">
+  <rect width="900" height="675" fill="#f8f8f2"/>
+  <rect x="60" y="60" width="780" height="555" fill="#dfff3f" stroke="#101010" stroke-width="8"/>
+  <path d="M220 405c90-12 160-75 215-170 38 99 105 155 230 170 32 4 58 30 58 63H167c0-32 23-59 53-63z" fill="#101010"/>
+  <path d="M250 390c78-15 130-68 176-145" fill="none" stroke="#f8f8f2" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#101010">KULSTORE</text>
+</svg>

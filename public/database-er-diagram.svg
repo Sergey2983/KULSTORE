@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="1600" viewBox="0 0 1850 1600">
+<defs>
+  <style>
+    .bg { fill: #f8fafc; }
+    .title { font: 700 34px "Arial", sans-serif; fill: #111827; }
+    .subtitle { font: 400 18px "Arial", sans-serif; fill: #475569; }
+    .entity { fill: #ffffff; stroke: #111827; stroke-width: 2; rx: 10; }
+    .head { fill: #111827; }
+    .headText { font: 700 18px "Arial", sans-serif; fill: #ffffff; }
+    .field { font: 400 15px "Consolas", "Arial", monospace; fill: #111827; }
+    .pk { font-weight: 700; fill: #0f766e; }
+    .fk { fill: #7c3aed; }
+    .line { fill: none; stroke: #334155; stroke-width: 2; }
+    .card { font: 700 14px "Arial", sans-serif; fill: #0f172a; }
+  </style>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+<text class="title" x="70" y="55">ER-диаграмма базы данных интернет-магазина обуви</text>
+<text class="subtitle" x="70" y="86">PostgreSQL / Prisma: пользователи, каталог, варианты обуви, корзина, заказы и административные данные</text>
+<path class="line" d="M 400 268.0 C 515.5 268.0, -45.499999999999986 533.0, 70 533.0" marker-end="url(#arrow)"/>
+<text class="card" x="375.0" y="260.0">1</text>
+<text class="card" x="80.0" y="525.0">N</text>
+<path class="line" d="M 400 268.0 C 515.5 268.0, -45.499999999999986 738.0, 70 738.0" marker-end="url(#arrow)"/>
+<text class="card" x="375.0" y="260.0">1</text>
+<text class="card" x="80.0" y="730.0">N</text>
+<path class="line" d="M 400 268.0 C 515.5 268.0, -45.499999999999986 988.0, 70 988.0" marker-end="url(#arrow)"/>
+<text class="card" x="375.0" y="260.0">1</text>
+<text class="card" x="80.0" y="980.0">N</text>
+<path class="line" d="M 400 268.0 C 515.5 268.0, -45.499999999999986 1213.0, 70 1213.0" marker-end="url(#arrow)"/>
+<text class="card" x="375.0" y="260.0">1</text>
+<text class="card" x="80.0" y="1205.0">N</text>
+<path class="line" d="M 400 268.0 C 515.5 268.0, -45.499999999999986 1443.0, 70 1443.0" marker-end="url(#arrow)"/>
+<text class="card" x="375.0" y="260.0">1</text>
+<text class="card" x="80.0" y="1435.0">N</text>
+<path class="line" d="M 400 268.0 C 606.5 268.0, 783.5 818.0, 990 818.0" marker-end="url(#arrow)"/>
+<text class="card" x="410.0" y="260.0">1</text>
+<text class="card" x="965.0" y="810.0">1</text>
+<path class="line" d="M 400 268.0 C 771.0 268.0, 1089.0 478.0, 1460 478.0" marker-end="url(#arrow)"/>
+<text class="card" x="410.0" y="260.0">1</text>
+<text class="card" x="1435.0" y="470.0">N</text>
+<path class="line" d="M 400 988.0 C 771.0 988.0, 1089.0 478.0, 1460 478.0" marker-end="url(#arrow)"/>
+<text class="card" x="410.0" y="980.0">1</text>
+<text class="card" x="1435.0" y="470.0">N</text>
+<path class="line" d="M 850 223.0 C 965.5 223.0, 404.5 883.0, 520 883.0" marker-end="url(#arrow)"/>
+<text class="card" x="825.0" y="215.0">1</text>
+<text class="card" x="530.0" y="875.0">N</text>
+<path class="line" d="M 850 508.0 C 965.5 508.0, 404.5 883.0, 520 883.0" marker-end="url(#arrow)"/>
+<text class="card" x="825.0" y="500.0">1</text>
+<text class="card" x="530.0" y="875.0">N</text>
+<path class="line" d="M 830 596 C 940 676, 940 350, 830 420" marker-end="url(#arrow)"/>
+<text class="card" x="880.0" y="634.0">1</text>
+<text class="card" x="880.0" y="392.0">N</text>
+<path class="line" d="M 850 883.0 C 965.5 883.0, 404.5 1213.0, 520 1213.0" marker-end="url(#arrow)"/>
+<text class="card" x="825.0" y="875.0">1</text>
+<text class="card" x="530.0" y="1205.0">N</text>
+<path class="line" d="M 850 883.0 C 920 883.0, 920 538.0, 990 538.0" marker-end="url(#arrow)"/>
+<text class="card" x="860.0" y="875.0">1</text>
+<text class="card" x="965.0" y="530.0">N</text>
+<path class="line" d="M 1155.0 266 C 1155.0 343.0, 1155.0 343.0, 1155.0 420" marker-end="url(#arrow)"/>
+<text class="card" x="1165.0" y="258.0">1</text>
+<text class="card" x="1130.0" y="412.0">N</text>
+<path class="line" d="M 1155.0 876 C 1155.0 923.0, 1155.0 923.0, 1155.0 970" marker-end="url(#arrow)"/>
+<text class="card" x="1165.0" y="868.0">1</text>
+<text class="card" x="1130.0" y="962.0">N</text>
+<path class="line" d="M 1155.0 656 C 1155.0 813.0, 1155.0 813.0, 1155.0 970" marker-end="url(#arrow)"/>
+<text class="card" x="1165.0" y="648.0">1</text>
+<text class="card" x="1130.0" y="962.0">N</text>
+<path class="line" d="M 1625.0 596 C 1625.0 658.0, 1625.0 658.0, 1625.0 720" marker-end="url(#arrow)"/>
+<text class="card" x="1635.0" y="588.0">1</text>
+<text class="card" x="1600.0" y="712.0">N</text>
+<path class="line" d="M 850 883.0 C 1063.5 883.0, 1246.5 838.0, 1460 838.0" marker-end="url(#arrow)"/>
+<text class="card" x="860.0" y="875.0">1</text>
+<text class="card" x="1435.0" y="830.0">N</text>
+<path class="line" d="M 1320 538.0 C 1390 538.0, 1390 838.0, 1460 838.0" marker-end="url(#arrow)"/>
+<text class="card" x="1330.0" y="530.0">1</text>
+<text class="card" x="1435.0" y="830.0">N</text>
+<path class="line" d="M 1625.0 596 C 1625.0 828.0, 1625.0 828.0, 1625.0 1060" marker-end="url(#arrow)"/>
+<text class="card" x="1635.0" y="588.0">1</text>
+<text class="card" x="1600.0" y="1052.0">1</text>
+<path class="line" d="M 520 883.0 C 450 883.0, 470 1443.0, 400 1443.0" marker-end="url(#arrow)"/>
+<text class="card" x="495.0" y="875.0">1</text>
+<text class="card" x="410.0" y="1435.0">N</text>
+<rect class="entity" x="70" y="120" width="330" height="296" rx="10"/>
+<path class="head" d="M 80 120 H 390 Q 400 120 400 130 V 162 H 70 V 130 Q 70 120 80 120 Z"/>
+<text class="headText" x="86" y="148">User</text>
+<text class="field pk" x="86" y="184">PK id</text>
+<text class="field" x="86" y="214">email</text>
+<text class="field" x="86" y="244">passwordHash</text>
+<text class="field" x="86" y="274">name</text>
+<text class="field" x="86" y="304">phone</text>
+<text class="field" x="86" y="334">role</text>
+<text class="field" x="86" y="364">createdAt</text>
+<text class="field" x="86" y="394">updatedAt</text>
+<rect class="entity" x="70" y="430" width="330" height="206" rx="10"/>
+<path class="head" d="M 80 430 H 390 Q 400 430 400 440 V 472 H 70 V 440 Q 70 430 80 430 Z"/>
+<text class="headText" x="86" y="458">Account</text>
+<text class="field pk" x="86" y="494">PK id</text>
+<text class="field fk" x="86" y="524">FK userId</text>
+<text class="field" x="86" y="554">type</text>
+<text class="field" x="86" y="584">provider</text>
+<text class="field" x="86" y="614">providerAccountId</text>
+<rect class="entity" x="70" y="650" width="330" height="176" rx="10"/>
+<path class="head" d="M 80 650 H 390 Q 400 650 400 660 V 692 H 70 V 660 Q 70 650 80 650 Z"/>
+<text class="headText" x="86" y="678">Session</text>
+<text class="field pk" x="86" y="714">PK id</text>
+<text class="field" x="86" y="744">sessionToken</text>
+<text class="field fk" x="86" y="774">FK userId</text>
+<text class="field" x="86" y="804">expires</text>
+<rect class="entity" x="70" y="870" width="330" height="236" rx="10"/>
+<path class="head" d="M 80 870 H 390 Q 400 870 400 880 V 912 H 70 V 880 Q 70 870 80 870 Z"/>
+<text class="headText" x="86" y="898">Address</text>
+<text class="field pk" x="86" y="934">PK id</text>
+<text class="field fk" x="86" y="964">FK userId</text>
+<text class="field" x="86" y="994">city</text>
+<text class="field" x="86" y="1024">street</text>
+<text class="field" x="86" y="1054">house</text>
+<text class="field" x="86" y="1084">zipCode</text>
+<rect class="entity" x="520" y="120" width="330" height="206" rx="10"/>
+<path class="head" d="M 530 120 H 840 Q 850 120 850 130 V 162 H 520 V 130 Q 520 120 530 120 Z"/>
+<text class="headText" x="536" y="148">Brand</text>
+<text class="field pk" x="536" y="184">PK id</text>
+<text class="field" x="536" y="214">name</text>
+<text class="field" x="536" y="244">slug</text>
+<text class="field" x="536" y="274">logoUrl</text>
+<text class="field" x="536" y="304">tier</text>
+<rect class="entity" x="520" y="420" width="330" height="176" rx="10"/>
+<path class="head" d="M 530 420 H 840 Q 850 420 850 430 V 462 H 520 V 430 Q 520 420 530 420 Z"/>
+<text class="headText" x="536" y="448">Category</text>
+<text class="field pk" x="536" y="484">PK id</text>
+<text class="field" x="536" y="514">name</text>
+<text class="field" x="536" y="544">slug</text>
+<text class="field fk" x="536" y="574">FK parentId</text>
+<rect class="entity" x="520" y="720" width="330" height="326" rx="10"/>
+<path class="head" d="M 530 720 H 840 Q 850 720 850 730 V 762 H 520 V 730 Q 520 720 530 720 Z"/>
+<text class="headText" x="536" y="748">Product</text>
+<text class="field pk" x="536" y="784">PK id</text>
+<text class="field" x="536" y="814">title</text>
+<text class="field" x="536" y="844">slug</text>
+<text class="field" x="536" y="874">description</text>
+<text class="field" x="536" y="904">price</text>
+<text class="field" x="536" y="934">discountPrice</text>
+<text class="field" x="536" y="964">gender</text>
+<text class="field fk" x="536" y="994">FK brandId</text>
+<text class="field fk" x="536" y="1024">FK categoryId</text>
+<rect class="entity" x="520" y="1110" width="330" height="206" rx="10"/>
+<path class="head" d="M 530 1110 H 840 Q 850 1110 850 1120 V 1152 H 520 V 1120 Q 520 1110 530 1110 Z"/>
+<text class="headText" x="536" y="1138">ProductImage</text>
+<text class="field pk" x="536" y="1174">PK id</text>
+<text class="field fk" x="536" y="1204">FK productId</text>
+<text class="field" x="536" y="1234">url</text>
+<text class="field" x="536" y="1264">alt</text>
+<text class="field" x="536" y="1294">position</text>
+<rect class="entity" x="990" y="120" width="330" height="146" rx="10"/>
+<path class="head" d="M 1000 120 H 1310 Q 1320 120 1320 130 V 162 H 990 V 130 Q 990 120 1000 120 Z"/>
+<text class="headText" x="1006" y="148">Color</text>
+<text class="field pk" x="1006" y="184">PK id</text>
+<text class="field" x="1006" y="214">name</text>
+<text class="field" x="1006" y="244">hex</text>
+<rect class="entity" x="990" y="420" width="330" height="236" rx="10"/>
+<path class="head" d="M 1000 420 H 1310 Q 1320 420 1320 430 V 462 H 990 V 430 Q 990 420 1000 420 Z"/>
+<text class="headText" x="1006" y="448">ProductVariant</text>
+<text class="field pk" x="1006" y="484">PK id</text>
+<text class="field fk" x="1006" y="514">FK productId</text>
+<text class="field fk" x="1006" y="544">FK colorId</text>
+<text class="field" x="1006" y="574">size</text>
+<text class="field" x="1006" y="604">inStock</text>
+<text class="field" x="1006" y="634">sku</text>
+<rect class="entity" x="990" y="760" width="330" height="116" rx="10"/>
+<path class="head" d="M 1000 760 H 1310 Q 1320 760 1320 770 V 802 H 990 V 770 Q 990 760 1000 760 Z"/>
+<text class="headText" x="1006" y="788">Cart</text>
+<text class="field pk" x="1006" y="824">PK id</text>
+<text class="field fk" x="1006" y="854">FK userId</text>
+<rect class="entity" x="990" y="970" width="330" height="176" rx="10"/>
+<path class="head" d="M 1000 970 H 1310 Q 1320 970 1320 980 V 1012 H 990 V 980 Q 990 970 1000 970 Z"/>
+<text class="headText" x="1006" y="998">CartItem</text>
+<text class="field pk" x="1006" y="1034">PK id</text>
+<text class="field fk" x="1006" y="1064">FK cartId</text>
+<text class="field fk" x="1006" y="1094">FK variantId</text>
+<text class="field" x="1006" y="1124">quantity</text>
+<rect class="entity" x="1460" y="360" width="330" height="236" rx="10"/>
+<path class="head" d="M 1470 360 H 1780 Q 1790 360 1790 370 V 402 H 1460 V 370 Q 1460 360 1470 360 Z"/>
+<text class="headText" x="1476" y="388">Order</text>
+<text class="field pk" x="1476" y="424">PK id</text>
+<text class="field" x="1476" y="454">orderNumber</text>
+<text class="field fk" x="1476" y="484">FK userId</text>
+<text class="field fk" x="1476" y="514">FK addressId</text>
+<text class="field" x="1476" y="544">status</text>
+<text class="field" x="1476" y="574">totalAmount</text>
+<rect class="entity" x="1460" y="720" width="330" height="236" rx="10"/>
+<path class="head" d="M 1470 720 H 1780 Q 1790 720 1790 730 V 762 H 1460 V 730 Q 1460 720 1470 720 Z"/>
+<text class="headText" x="1476" y="748">OrderItem</text>
+<text class="field pk" x="1476" y="784">PK id</text>
+<text class="field fk" x="1476" y="814">FK orderId</text>
+<text class="field fk" x="1476" y="844">FK productId</text>
+<text class="field fk" x="1476" y="874">FK variantId</text>
+<text class="field" x="1476" y="904">quantity</text>
+<text class="field" x="1476" y="934">priceAtPurchase</text>
+<rect class="entity" x="1460" y="1060" width="330" height="236" rx="10"/>
+<path class="head" d="M 1470 1060 H 1780 Q 1790 1060 1790 1070 V 1102 H 1460 V 1070 Q 1460 1060 1470 1060 Z"/>
+<text class="headText" x="1476" y="1088">Payment</text>
+<text class="field pk" x="1476" y="1124">PK id</text>
+<text class="field fk" x="1476" y="1154">FK orderId</text>
+<text class="field" x="1476" y="1184">provider</text>
+<text class="field" x="1476" y="1214">providerPaymentId</text>
+<text class="field" x="1476" y="1244">status</text>
+<text class="field" x="1476" y="1274">amount</text>
+<rect class="entity" x="70" y="1340" width="330" height="206" rx="10"/>
+<path class="head" d="M 80 1340 H 390 Q 400 1340 400 1350 V 1382 H 70 V 1350 Q 70 1340 80 1340 Z"/>
+<text class="headText" x="86" y="1368">Review</text>
+<text class="field pk" x="86" y="1404">PK id</text>
+<text class="field fk" x="86" y="1434">FK productId</text>
+<text class="field fk" x="86" y="1464">FK userId</text>
+<text class="field" x="86" y="1494">rating</text>
+<text class="field" x="86" y="1524">comment</text>
+<rect class="entity" x="70" y="1110" width="330" height="206" rx="10"/>
+<path class="head" d="M 80 1110 H 390 Q 400 1110 400 1120 V 1152 H 70 V 1120 Q 70 1110 80 1110 Z"/>
+<text class="headText" x="86" y="1138">Notification</text>
+<text class="field pk" x="86" y="1174">PK id</text>
+<text class="field fk" x="86" y="1204">FK userId</text>
+<text class="field" x="86" y="1234">orderId</text>
+<text class="field" x="86" y="1264">message</text>
+<text class="field" x="86" y="1294">isRead</text>
+<rect class="entity" x="520" y="1340" width="330" height="296" rx="10"/>
+<path class="head" d="M 530 1340 H 840 Q 850 1340 850 1350 V 1382 H 520 V 1350 Q 520 1340 530 1340 Z"/>
+<text class="headText" x="536" y="1368">HeroSlide</text>
+<text class="field pk" x="536" y="1404">PK id</text>
+<text class="field" x="536" y="1434">eyebrow</text>
+<text class="field" x="536" y="1464">title</text>
+<text class="field" x="536" y="1494">subtitle</text>
+<text class="field" x="536" y="1524">image</text>
+<text class="field" x="536" y="1554">ctaHref</text>
+<text class="field" x="536" y="1584">position</text>
+<text class="field" x="536" y="1614">isActive</text>
+<text class="subtitle" x="70" y="1560">Обозначения: PK — первичный ключ, FK — внешний ключ, 1/N — тип связи между сущностями.</text>
+</svg>
