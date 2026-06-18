@@ -10,6 +10,15 @@ server {
     # Загрузка фото товаров/слайдов — до 10 МБ (см. serverActions.bodySizeLimit).
     client_max_body_size 12m;
 
+    # Пользовательские загрузки раздаём напрямую с диска: next start не отдаёт файлы,
+    # появившиеся в public/ после сборки. Путь — это <каталог проекта>/public/uploads/.
+    location /uploads/ {
+        alias /opt/KULSTORE/public/uploads/;
+        access_log off;
+        expires 30d;
+        try_files $uri =404;
+    }
+
     location / {
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
