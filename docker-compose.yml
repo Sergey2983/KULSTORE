@@ -2,9 +2,12 @@ services:
   db:
     image: postgres:16-alpine
     restart: unless-stopped
+    # POSTGRES_PASSWORD берётся из .env.production (а не из дефолтного .env),
+    # поэтому передаём весь файл напрямую в контейнер — лишние переменные Postgres игнорирует.
+    env_file:
+      - .env.production
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env.production}
       POSTGRES_DB: kulstore_shop
     volumes:
       - pgdata:/var/lib/postgresql/data
